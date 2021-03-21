@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    /* max-width: 960px; */
+}
+
+h1,
+h2 {
+    font-family: 'Bangers', cursive;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+header {
+    height: 350px;
+}
