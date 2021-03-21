@@ -1,0 +1,9 @@
+header {
+    background-image: url("https://api.time.com/wp-content/uploads/2018/04/listening-to-music-headphones.jpg?quality=85&w=1024&h=400&crop=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(245, 218, 225, 0.349);
+}

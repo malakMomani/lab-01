@@ -1,0 +1,45 @@
+h1 {
+    position: relative;
+    left: 16vw;
+    top: 10vh;
+}
+
+main section {
+    width: 70%;
+    margin: 18vh auto;
+    clear: both;
+}
+
+main section h2 {
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+main section p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2vw;
+    margin-top: 8vh;
+}
+
+#text img {
+    float: right;
+}
+
+#text2 img {
+    float: left;
+    margin-right: 5vw;
+    ;
+}
+
+#text2 p {
+    margin-left: 30vw;
+}
+
+#text3 img {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    color: rgb(153, 123, 3);
+}
