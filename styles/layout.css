@@ -43,3 +43,9 @@ footer {
     text-align: center;
     color: rgb(153, 123, 3);
 }
+
+@media only screen and (min-width: 400px) and (max-width: 9600px) {
+    body {
+        background-color: rgba(197, 229, 255, 0.712);
+    }
+}

@@ -1,7 +1,7 @@
 header nav {
-    position: relative;
+    position: absolute;
     left: 20vw;
-    top: 15vh;
+    top: 23vh;
     font-size: 20px;
     font-weight: bold;
 }
