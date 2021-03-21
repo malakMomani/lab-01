@@ -44,8 +44,22 @@ footer {
     color: rgb(153, 123, 3);
 }
 
-@media only screen and (min-width: 400px) and (max-width: 9600px) {
-    body {
-        background-color: rgba(197, 229, 255, 0.712);
+@media (min-width: 400px) and (max-width: 960px) {
+    main section {
+        width: 100%;
+        margin: 10vh auto;
+        clear: both;
+    }
+    main section h2 {
+        margin-bottom: 3vh;
+        text-align: center;
+    }
+    main section p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 2vw;
+        margin-top: 3vh;
+    }
+    footer {
+        background-color: darksalmon;
     }
 }
