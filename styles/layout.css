@@ -9,7 +9,7 @@
     grid-template-columns: 20.83% 79.16%;    
   }
 
-  #row1 ,#row3,#row2 {
+  #row1,#row3,#row2 {
     display: flex;
     align-content: flex-start;
   }
