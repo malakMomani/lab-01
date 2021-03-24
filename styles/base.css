@@ -2,24 +2,21 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0 auto;
-    /* max-width: 960px; */
+div {
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    border: 1px solid black;
 }
 
-h1,
-h2 {
-    font-family: 'Bangers', cursive;
+@media (min-width: 768px) {
+    div {
+        background-color: rgb(209, 209, 209);
+    }
 }
 
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 25px;
-}
-
-header {
-    height: 350px;
+@media (min-width: 480px) and (max-width: 767px) {
+    div {
+        background-color: rgb(255, 220, 220);
+    }
 }
