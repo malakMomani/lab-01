@@ -10,11 +10,21 @@ div {
     border: 1px solid black;
 }
 
+/* Desktop View */
+
 @media (min-width: 768px) {
     div {
         background-color: rgb(209, 209, 209);
     }
 }
+/* Tablet View */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    div {
+        background-color: rgb(177, 243, 252);
+    }
+}
+/* Mobile View */
 
 @media (min-width: 480px) and (max-width: 767px) {
     div {
