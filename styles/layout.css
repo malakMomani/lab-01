@@ -1,3 +1,5 @@
+
+/* Desktop View */
 @media (min-width: 768px) {
   html {
     max-width: 960px;
@@ -16,6 +18,25 @@
   
 }
 
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  #flexBox {
+    display: grid;
+    grid-template-columns: 20.83% 79.16%;    
+  }
+
+  #row1,#row3,#row2 {
+    display: flex;
+    align-content: flex-start;
+  }
+}
+
+/* Mobile View */
 @media (min-width: 480px) and (max-width: 767px) {
   html {
     width: 767px;
